@@ -10,8 +10,8 @@ puts var.class
 # variables types
 # global variables => $var
 # class variables => @@var
-# instance variables => @var
-# local variables => var
+# instance variables => @var | without value if call it will be nill
+# local variables => var | without value if call it will throw error
 
 #Constants 
 # A constant is a named value that cannot be changed once it has been assigned.
