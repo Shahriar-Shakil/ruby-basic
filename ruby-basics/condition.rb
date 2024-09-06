@@ -11,8 +11,10 @@ num = gets.to_i
 #   puts "#{num} is an odd number"
 # end
 
+# cant is elsif in unless condition . 
 unless num % 2 == 0 
   puts "#{num} is an odd number"
 else 
   puts "#{num} is an even number"
+    
 end
